@@ -1,7 +1,5 @@
-command:
-  - streamlit
-  - run
-  - app.py
-  - --server.port=$DATABRICKS_APP_PORT
-  - --server.enableCORS=false
-  - --server.enableXsrfProtection=false
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
